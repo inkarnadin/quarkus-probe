@@ -1,4 +1,4 @@
-package ru.alarh.web.dao;
+package ru.alarh.db.dao;
 
 import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
@@ -7,7 +7,7 @@ import io.vertx.mutiny.sqlclient.Row;
 import io.vertx.mutiny.sqlclient.RowSet;
 import io.vertx.mutiny.sqlclient.Tuple;
 import lombok.Data;
-import ru.alarh.web.domain.Camera;
+import ru.alarh.db.domain.Camera;
 
 @Data
 public class CameraDao {

@@ -2,7 +2,7 @@ package ru.alarh.web.resource;
 
 import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
-import ru.alarh.web.domain.Camera;
+import ru.alarh.db.domain.Camera;
 import ru.alarh.web.service.CameraService;
 
 import javax.inject.Inject;

@@ -1,4 +1,4 @@
-package ru.alarh.web.domain;
+package ru.alarh.db.domain;
 
 import lombok.Data;
 

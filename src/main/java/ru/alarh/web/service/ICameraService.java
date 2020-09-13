@@ -2,7 +2,7 @@ package ru.alarh.web.service;
 
 import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
-import ru.alarh.web.domain.Camera;
+import ru.alarh.db.domain.Camera;
 
 public interface ICameraService {
 

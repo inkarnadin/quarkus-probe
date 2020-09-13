@@ -6,8 +6,8 @@ import javax.inject.Inject;
 import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
 import io.vertx.mutiny.mysqlclient.MySQLPool;
-import ru.alarh.web.dao.CameraDao;
-import ru.alarh.web.domain.Camera;
+import ru.alarh.db.dao.CameraDao;
+import ru.alarh.db.domain.Camera;
 
 @ApplicationScoped
 public class CameraService implements ICameraService {
