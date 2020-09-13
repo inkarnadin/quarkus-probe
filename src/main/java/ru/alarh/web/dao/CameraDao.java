@@ -24,7 +24,7 @@ public class CameraDao {
     }
 
     public static Uni<Camera> findById(MySQLPool client, Long id) {
-        return client.preparedQuery("select id, address, guid from camera where id = $1").execute(Tuple.of(id))
+        return client.preparedQuery("select id, address, guid from camera where id = ?").execute(Tuple.of(id))
                 .onItem().transform(RowSet::iterator)
                 .onItem().transform(iterator -> iterator.hasNext() ? from(iterator.next()) : null);
     }
