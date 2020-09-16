@@ -1,0 +1,13 @@
+quarkus:
+  db-kind: mariadb
+    username: root
+    password: 123
+    reactive:
+      url: mariadb://localhost:3306/quarkus
+  log:
+    console:
+      color: true
+    level: INFO
+#    category:
+#      "io.quarkus": WARN
+#      "org.jooq": DEBUG
